@@ -1,0 +1,141 @@
+<html>
+<head>
+    <title>Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        button {
+            background-color: #4CAF50; 
+            border: none;
+            color: white;
+            padding: 12px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        button a {
+            color: white;
+            text-decoration: none;
+        }
+
+      
+        .form-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 50px; 
+        }
+
+        form {
+            background-color: #ffffff;
+            width: 350px;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            border: 2px solid #ddd;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="email"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            font-size: 14px;
+        }
+
+        input[type="radio"] {
+            margin-top: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            width: 100%;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button><a href="unit1.html">Unit 1</a></button>
+        <button><a href="unit2.html">Unit 2</a></button>
+        <button><a href="unit3.html">Unit 3</a></button>
+        <button><a href="unit4.html">Unit 4</a></button>
+        <button><a href="unit5.html">Unit 5</a></button>
+        <button><a href="unit6.html">Unit 6</a></button>
+        <button><a href="unit7.html">Unit 7</a></button>
+        <button><a href="unit8.html">Unit 8</a></button>
+    </div>
+
+    <div class="form-container">
+        <h1>Student Registration Form</h1>
+        <form action="#">
+            <label for="Uname">Username:</label>
+            <input type="text" name="Uname" id="Uname" placeholder="Enter your name" required>
+
+            <label for="pwd">Password:</label>
+            <input type="password" name="pwd" id="pwd" placeholder="Enter your password" required>
+
+            <label for="mail">Email:</label>
+            <input type="email" name="mail" id="mail" placeholder="Ex: abc@gmail.com" required>
+
+            <div>
+                <label>Gender:</label><br>
+                <input type="radio" name="Gender" value="Male"> Male
+                <input type="radio" name="Gender" value="Female"> Female
+            </div>
+
+            <label for="subject">Subject:</label>
+            <select name="subject" id="subject">
+                <option value="Computer">Computer Science</option>
+                <option value="Physics">Physics</option>
+                <option value="Chemistry">Chemistry</option>
+            </select>
+
+            <input type="submit" value="Register">
+        </form>
+    </div>
+
+</body>
+</html>

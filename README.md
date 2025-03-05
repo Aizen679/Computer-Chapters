@@ -1,7 +1,7 @@
 # Computer-Chapters
 Computer chapter webpages concatenation
 <hr>
-The single CSS file<b>file.css</b> is used for all webpages.
+The single CSS file <b>[file.css]</b> is used for all webpages.
 <br>
 As for the home page, it has got its own Internal CSS.
 <br>
